@@ -64,3 +64,7 @@ The result's file have the information like in the table below:
 | A | B | C | D | E | F |
 | :---: | :---: | :---: | :---: | :---: | :---: | 
 | objective_initial |  construtive_time | objetive_heuristic | heuristic_time | heuristic.cont | total_time | 
+
+### Instances
+
+The instances used on this projects is on the [link](http://soa.iti.es/files/RSDST.7z)
