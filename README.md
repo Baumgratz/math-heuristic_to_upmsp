@@ -1,52 +1,43 @@
-# Math-Heuristic to UPMSP
+# Matheuristic to UPMSP
 
-The algorithm to find the solution the **UPMSP** (*Unrelated Parallel Machine Scheduling Problem with Sequence Dependent and Setup Times*) when it is use a **math-heuristic**.
+This repo contains the source-code, instances, and data related to the paper **A Fix-and-Optimize Heuristic for the Unrelated Parallel Machine Scheduling Problem**, that is under consideration for publication in Computers & OR.
 
-***In progress***
+The paper proposes a fix-and-optimize approach that addresses, at each iteration, a subset of the machines to be scheduled and tries to minimize its largest completion time (makespan). The model that solves each subproblem is based on the exact decomposition approach proposed by [Fanjul Peyro et al. (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0305054818301916?via%3Dihub), that takes advantage of solving non-trivial ordering subproblems separately.
+## Installing dependencies
 
-## Install
+The following packages are required:
 
-The project **required** install:
+- [Python](https://www.python.org/) >= 3.6
+- [Pip](https://pypi.org/project/pip/) >= 20.1.1
+- [PythonMIP](https://python-mip.readthedocs.io/) >= 1.8.1
 
- - [Python](https://www.python.org/) >= 3.6
- - [Pip](https://pypi.org/project/pip/) >= 20.1.1
- - [MIP](https://python-mip.readthedocs.io/) >= 1.8.1
+To obtain the best performance, the application should be executed with:
 
-It is **recommend** use:
+- [Pypy](https://www.pypy.org/) >= 7.3.1
 
- - [Pypy](https://www.pypy.org/) >= 7.3.1
- - [Gurobi](https://www.gurobi.com/) >= 9.0
+and as a MIP solver:
 
-## Execute
+- [Gurobi](https://www.gurobi.com/) >= 9.0
 
-To execute the project the command is:
+## Run the project
+
+The following command line runs the algorithm:
 
 ```bash
-pypy3 main.py $DIR_INSTANCE $PARAMETERS
+pypy3 main.py $INSTANCE $PARAMETERS
 ```
 
-The **$DIR_INSTANCE** put the directory of instance and it is **required**.
+where `$INSTANCE` is required and stands for the instance file name (and directory).
 
-### Parameters
+### CLI parameters
 
-The **$PARAMETERS** ins't required.
+Several optional parameters can be passed to the algorithm:
 
-The parameters is:
-
- * *mip_max_it_time* : the maximum time (in seconds) to MIP solver execute.
- * *max_jobs* : the number of the initial jobs to work in algorithm;
-    * If *max_jobs* is low then amount of jobs on two machines, the algorithm get all jobs in this two machines. (Ignored the initial value of *max_jobs*)
- * *total_time* : Maximum time (in seconds) to algorithm execute.
- * *output*: path when will save the solution of the execution (if exists the path, will write in the end of file)
- * *save_result*: dir that will generate a csv file with results
-
-If doesn't pass a values to parameters, the default values each parameter is:
-
- - *mip_max_it_time* = 16
- - *max_jobs* = 106
- - *total_time* = 3600 (1 hour)
- - *output* = solutions/**$INSTANCE_NAME**
- - *save_result* = results/**$INSTANCE_NAME**
+- `_mip_max_it_time_` (default `16`): runtime limit (secs) for each iteration of the fix-and-optimize algorithm.
+- `_max_jobs_` (default `100`): the initial number of jobs to be released in the first iteration of the algorithm;
+- `_total_time_` (default `3600`): overall runtime limit (secs) of the algorithm;
+- `_output_` (default `solutions/$INSTANCE`): path in which the solution will be written;
+- `_save_result_` (default `results/$INSTANCE`): path in which a csv file with the summary of the execution will be written.
 
 ### Example
 
@@ -54,17 +45,16 @@ If doesn't pass a values to parameters, the default values each parameter is:
 pypy3 main_nw.py instances/I_50_20_S_1-9_1.txt -max_time 600 -mip_max_it_time 30
 ```
 
-In this example, don't have the parameters *max_jobs*  and they receveid the default value.
-Don't matter the order of the parameters, only the name.
+In this example, the overall runtime limit is 600 seconds and the timelimit for each fix-and-optimize iteration is 30 seconds.
 
-## Results
+## Results file
 
-The result's file have the information like in the table below:
+The .csv result file has the following structure:
 
-| A | B | C | D | E | F |
-| :---: | :---: | :---: | :---: | :---: | :---: | 
-| objective_initial |  construtive_time | objetive_heuristic | heuristic_time | heuristic.cont | total_time | 
+|         A         |        B         |         C          |       D        |       E        |     F      |
+| :---------------: | :--------------: | :----------------: | :------------: | :------------: | :--------: |
+| objective_initial | construtive_time | objetive_heuristic | heuristic_time | heuristic.cont | total_time |
 
 ## Instances
 
-The instances used on this projects is on the [link](http://soa.iti.es/files/RSDST.7z)
+The instances used in this projects are available at [link](http://soa.iti.es/files/RSDST.7z).
