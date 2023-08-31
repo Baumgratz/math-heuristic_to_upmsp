@@ -1,0 +1,57 @@
+
+Gurobi 7.0.2 (win64) logging started 06/24/20 00:26:05
+
+Read LP format model from file C:\George\Professor\Pesquisa\Orientacoes em Pos-graduacao\2019 MSC PPGCC Guilherme Figueroa\Fanjuls Solver\Results\I_50_25_S_1-9_4_MTZ_KB.lp
+Reading time = 0.20 seconds
+: 5150 rows, 65051 columns, 262525 nonzeros
+Optimize a model with 5150 rows, 65051 columns and 262525 nonzeros
+Variable types: 1301 continuous, 63750 integer (63750 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 5e+01]
+Presolve time: 0.27s
+Presolved: 5150 rows, 65051 columns, 262525 nonzeros
+Variable types: 50 continuous, 65001 integer (65000 binary)
+Found heuristic solution: objective 2699.0000000
+Found heuristic solution: objective 2697.0000000
+
+Root relaxation: objective 1.396342e+01, 12367 iterations, 2.22 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   13.96342    0  202 2697.00000   13.96342  99.5%     -    2s
+H    0     0                      33.0000000   13.96342  57.7%     -    4s
+H    0     0                      22.0000000   13.96342  36.5%     -    4s
+H    0     0                      21.0000000   13.96342  33.5%     -    4s
+     0     0   20.00000    0   83   21.00000   20.00000  4.76%     -    4s
+     0     0   20.00000    0   38   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0  125   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0  121   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0  176   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0  154   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0   39   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0   86   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0   25   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0   25   21.00000   20.00000  4.76%     -    6s
+     0     0   20.00000    0   24   21.00000   20.00000  4.76%     -    6s
+H    0     0                      20.0000000   20.00000  0.00%     -    6s
+
+Cutting planes:
+  Gomory: 1
+  Cover: 7
+  Implied bound: 1
+  Clique: 87
+  MIR: 7
+  GUB cover: 8
+
+Explored 0 nodes (20380 simplex iterations) in 6.51 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 6: 20 21 22 ... 2699
+Pool objective bound 20
+
+Optimal solution found (tolerance 0.00e+00)
+Best objective 2.000000000000e+01, best bound 2.000000000000e+01, gap 0.0000%

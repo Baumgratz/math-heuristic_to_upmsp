@@ -1,6 +1,7 @@
 from problem import Problem
 from solution import Solution
 from subproblem import MIPModel
+from sub_master_sequence import MasterSequence
 from random import uniform, randint, seed
 from copy import copy
 from time import time
@@ -18,7 +19,104 @@ class Heuristic:
         self.list_makespan = []
         self.list_max_jobs = []
 
-    def run(
+    def run_fanjul(
+        self,
+        mip_max_time,
+        max_free_jobs,
+        mip_max_it_time,
+        max_opt_execs,
+        random_seed=-1
+    ):
+        if random_seed != -1:
+            seed(random_seed)
+        makespan = self.solution.makespan
+        self.cont = 0
+        opt_execs = 0
+        start_time = time()
+        print("    /-------------------------------------------------------------------------------\\")
+        print("    |    Makespan   |   Free Jobs   | Free Machines |    It. Time   |   Total Time  | ")
+        print("    |-------------------------------------------------------------------------------|")
+
+        while time() - start_time < mip_max_time:
+            self.cont += 1
+            # Select free machines and jobs
+            max_free_jobs = min(max_free_jobs, self.problem.jobs)
+
+            # change num_jobs (int) to the list of jobs (list_jobs)
+            (free_machines, list_jobs) = self.w_roullete(max_free_jobs)
+            num_jobs = len(list_jobs)
+
+            # Create a subproblem
+            subproblem = MasterSequence(
+                self.problem,
+                free_machines,
+                list_jobs
+            )
+
+            if len(self.solution.machine[free_machines[0]]) + 1 > max_free_jobs:
+                max_free_jobs = len(self.solution.machine[free_machines[0]]) + 1
+
+            # Choose free jobs on the last machine
+            len_free_machines = len(free_machines)
+            if num_jobs > max_free_jobs:
+                i = free_machines[-1]
+                tam = len(self.solution.machine[i])
+                list_jobs = copy(self.solution.machine[i])
+                fixed_jobs = []
+                while num_jobs > max_free_jobs:
+                    r = randint(0, tam - 1)
+                    fixed_jobs.append(list_jobs.pop(r))
+                    num_jobs -= 1
+                    tam -= 1
+                subproblem.fix_vars(fixed_jobs, self.solution.machine[i])
+
+            subproblem.set_solution(self.solution)
+
+            model_max_time = min(
+                mip_max_it_time,
+                mip_max_time - (time() - start_time)
+            )
+            model_max_time = max(model_max_time, 0)
+
+            start_model_time = time()
+            solution_ = subproblem.run(
+                max_time=model_max_time,
+                solution=self.solution
+            )
+            end_model_time = time()
+            # solution_.print()
+            model_time = end_model_time - start_model_time
+
+            mark = "*" if makespan > solution_.makespan else ""
+            print("    | %13d | %13d | %13d | %13.2f | %13.2f | %s" % (
+                solution_.makespan,
+                max_free_jobs,
+                len_free_machines,
+                model_time,
+                time() - start_time,
+                mark
+            ))
+
+            if makespan > solution_.makespan:  # Improved soln
+                opt_execs = 0
+            else:
+                if subproblem.is_optimal():  # Optimal
+                    opt_execs += 1
+                    if opt_execs >= max_opt_execs:
+                        # Increase free jobs in 20%
+                        max_free_jobs = int(max_free_jobs * 1.2)
+                        opt_execs = 0
+                else:  # Time limit
+                    # Decrease free jobs in 20%
+                    max_free_jobs = int(max_free_jobs * 0.8)
+                    opt_execs = 0
+
+            self.solution = solution_
+            makespan = self.solution.makespan
+            opt_execs += 1
+        print("    \\-------------------------------------------------------------------------------/")
+
+    def run_avalara(
         self,
         mip_max_time,
         max_free_jobs,
@@ -189,3 +287,17 @@ class Heuristic:
             list_jobs += self.solution.machine[select]
             len_list_machine -= 1
         return (select_list, list_jobs)
+
+    def run(
+        self,
+        mip_max_time,
+        max_free_jobs,
+        mip_max_it_time,
+        max_opt_execs,
+        random_seed=-1,
+        option='fanjul'
+    ):
+        if option.lower() == 'avalara':
+            return self.run_avalara(mip_max_time, max_free_jobs, mip_max_it_time, max_opt_execs, random_seed)
+        if option.lower() == 'fanjul':
+            return self.run_fanjul(mip_max_time, max_free_jobs, mip_max_it_time, max_opt_execs, random_seed)

@@ -1,0 +1,665 @@
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+    /-------------------------------------------------------------------------------\
+    |    Makespan   |   Free Jobs   | Free Machines |    It. Time   |   Total Time  | 
+    |-------------------------------------------------------------------------------|
+    |           596 |            30 |             6 |          0.64 |          1.34 | *
+    |           593 |            30 |             6 |         20.02 |         21.48 | *
+    |           567 |            30 |             6 |         20.00 |         41.57 | *
+    |           550 |            30 |             6 |          0.49 |         42.14 | *
+    |           531 |            30 |             6 |          1.71 |         43.98 | *
+    |           498 |            30 |             6 |         20.02 |         64.08 | *
+    |           491 |            30 |             6 |         20.00 |         84.15 | *
+    |           490 |            30 |             5 |         10.06 |         94.25 | *
+    |           458 |            30 |             6 |         20.00 |        114.34 | *
+    |           454 |            30 |             6 |         20.00 |        134.43 | *
+    |           443 |            30 |             6 |          9.04 |        143.51 | *
+    |           439 |            30 |             5 |         20.00 |        163.55 | *
+    |           325 |            30 |             6 |         20.00 |        183.64 | *
+    |           321 |            30 |             4 |          2.26 |        185.95 | *
+    |           181 |            30 |             5 |         20.00 |        206.04 | *
+    |           179 |            30 |             6 |         19.69 |        225.80 | *
+    |           174 |            30 |             6 |         20.00 |        245.88 | *
+    |           152 |            30 |             5 |         13.63 |        259.57 | *
+    |           151 |            30 |             5 |         11.39 |        271.00 | *
+    |           151 |            30 |             5 |         12.69 |        283.75 | 
+    |           151 |            36 |             7 |         20.00 |        303.86 | 
+    |           149 |            28 |             7 |         20.01 |        323.92 | *
+    |           149 |            28 |             5 |         16.11 |        340.10 | 
+    |           146 |            33 |             6 |         20.00 |        360.18 | *
+    |           145 |            33 |             6 |         17.22 |        377.45 | *
+    |           145 |            33 |             6 |         20.00 |        397.54 | 
+    |           142 |            26 |             5 |          1.97 |        399.54 | *
+    |           139 |            26 |             5 |         10.79 |        410.37 | *
+    |           133 |            26 |             5 |          3.72 |        414.18 | *
+    |           132 |            26 |             5 |         13.97 |        428.21 | *
+    |           131 |            26 |             4 |          2.39 |        430.63 | *
+    |           130 |            26 |             4 |          1.26 |        431.96 | *
+    |           129 |            26 |             4 |          1.21 |        433.21 | *
+    |           128 |            26 |             5 |          5.85 |        439.09 | *
+    |           128 |            26 |             4 |          1.20 |        440.31 | 
+    |           127 |            31 |             6 |         14.20 |        454.58 | *
+    |           127 |            31 |             5 |          4.42 |        459.03 | 
+    |           127 |            37 |             7 |         20.01 |        479.13 | 
+    |           126 |            29 |             6 |         13.23 |        492.42 | *
+    |           126 |            29 |             5 |          0.77 |        493.23 | 
+    |           126 |            34 |             6 |         20.00 |        513.27 | 
+    |           125 |            27 |             5 |          5.03 |        518.33 | *
+    |           125 |            27 |             4 |          1.48 |        519.88 | 
+    |           124 |            32 |             6 |         20.00 |        539.94 | *
+    |           123 |            32 |             6 |         20.00 |        560.00 | *
+    |           121 |            32 |             6 |         20.00 |        580.08 | *
+    |           121 |            32 |             6 |         20.00 |        600.12 | 
+    |           119 |            25 |             5 |          2.47 |        602.64 | *
+    |           119 |            25 |             5 |          1.31 |        604.01 | 
+    |           118 |            30 |             5 |          4.14 |        608.19 | *
+    |           117 |            30 |             5 |          2.90 |        611.13 | *
+    |           117 |            30 |             5 |         20.00 |        631.15 | 
+    |           116 |            24 |             5 |          0.76 |        631.97 | *
+    |           116 |            24 |             4 |          0.95 |        632.93 | 
+    |           116 |            28 |             5 |          4.45 |        637.45 | 
+    |           116 |            33 |             6 |         20.01 |        657.52 | 
+    |           115 |            26 |             5 |          1.68 |        659.23 | *
+    |           115 |            26 |             5 |          1.28 |        660.54 | 
+    |           115 |            31 |             6 |         14.74 |        675.31 | 
+    |           115 |            37 |             7 |         20.00 |        695.39 | 
+    |           114 |            29 |             6 |         20.00 |        715.43 | *
+    |           114 |            29 |             5 |          3.63 |        719.11 | 
+    |           114 |            34 |             6 |          4.59 |        723.76 | 
+    |           113 |            40 |             6 |         20.01 |        743.82 | *
+    |           113 |            40 |             7 |         20.01 |        763.94 | 
+    |           113 |            32 |             5 |          1.28 |        765.30 | 
+    |           113 |            38 |             6 |         11.83 |        777.18 | 
+    |           113 |            45 |             8 |         20.01 |        797.32 | 
+    |           113 |            36 |             7 |         20.01 |        817.40 | 
+    |           113 |            28 |             5 |          3.10 |        820.57 | 
+    |           112 |            33 |             6 |         20.00 |        840.62 | *
+    |           112 |            33 |             6 |         20.00 |        860.69 | 
+    |           111 |            26 |             5 |          0.19 |        860.97 | *
+    |           111 |            26 |             5 |          0.57 |        861.58 | 
+    |           111 |            31 |             6 |         20.00 |        881.63 | 
+    |           111 |            24 |             5 |          1.64 |        883.32 | 
+    |           111 |            28 |             5 |          1.36 |        884.72 | 
+    |           111 |            33 |             6 |         20.00 |        904.77 | 
+    |           110 |            26 |             5 |         12.01 |        916.80 | *
+    |           110 |            26 |             5 |          1.25 |        918.11 | 
+    |           109 |            31 |             6 |         14.34 |        932.49 | *
+    |           109 |            31 |             7 |         20.00 |        952.64 | 
+    |           109 |            24 |             4 |          0.87 |        953.53 | 
+    |           109 |            28 |             5 |          1.26 |        954.83 | 
+    |           108 |            33 |             5 |          4.42 |        959.30 | *
+    |           108 |            33 |             7 |         16.92 |        976.32 | 
+    |           108 |            39 |             6 |         20.00 |        996.37 | 
+    |           108 |            31 |             5 |          1.56 |        997.96 | 
+    |           107 |            37 |             6 |         20.00 |       1018.00 | *
+    |           107 |            37 |             7 |         20.00 |       1038.16 | 
+    |           107 |            29 |             6 |          2.56 |       1040.78 | Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+
+    |           107 |            34 |             6 |          4.90 |       1045.72 | 
+    |           107 |            40 |             8 |         20.00 |       1065.80 | 
+    |           107 |            32 |             6 |         20.00 |       1085.88 | 
+    |           107 |            25 |             5 |          0.60 |       1086.51 | 
+    |           106 |            30 |             6 |         20.00 |       1106.55 | *
+    |           106 |            30 |             6 |         20.00 |       1126.59 | 
+    |           106 |            24 |             4 |          0.50 |       1127.11 | 
+    |           106 |            28 |             5 |          1.83 |       1128.97 | 
+    |           105 |            33 |             5 |          3.28 |       1132.30 | *
+    |           105 |            33 |             6 |          2.84 |       1135.27 | 
+    |           105 |            39 |             7 |          8.05 |       1143.39 | 
+    |           105 |            46 |             8 |         20.01 |       1163.52 | 
+    |           105 |            36 |             7 |         20.00 |       1183.60 | 
+    |           104 |            28 |             5 |          0.75 |       1184.39 | *
+    |           104 |            28 |             5 |          2.05 |       1186.50 | 
+    |           104 |            33 |             6 |          7.45 |       1193.98 | 
+    |           104 |            39 |             7 |         20.00 |       1214.10 | 
+    |           103 |            31 |             5 |          0.92 |       1215.05 | *
+    |           102 |            31 |             6 |          3.65 |       1218.79 | *
+    |           101 |            31 |             6 |         20.00 |       1238.82 | *
+    |           101 |            31 |             6 |          1.69 |       1240.55 | 
+    |           101 |            37 |             6 |          2.21 |       1242.81 | 
+    |           101 |            44 |             8 |         20.00 |       1262.93 | 
+    |           100 |            35 |             6 |          1.03 |       1264.04 | *
+    |           100 |            35 |             7 |         20.00 |       1284.13 | 
+    |           100 |            28 |             5 |          0.84 |       1284.99 | 
+    |           100 |            33 |             6 |          1.80 |       1286.83 | 
+    |            99 |            39 |             8 |          6.97 |       1293.89 | *
+    |            99 |            39 |             6 |          3.65 |       1297.62 | 
+    |            98 |            46 |             8 |         20.00 |       1317.77 | *
+    |            98 |            46 |             8 |         20.01 |       1337.89 | 
+    |            98 |            36 |             6 |          5.60 |       1343.55 | 
+    |            98 |            43 |             8 |         20.01 |       1363.65 | 
+    |            97 |            34 |             6 |          2.19 |       1365.92 | *
+    |            97 |            34 |             5 |          2.24 |       1368.23 | 
+    |            97 |            40 |             7 |         10.98 |       1379.28 | 
+    |            97 |            48 |             9 |         20.12 |       1399.56 | 
+    |            97 |            38 |             6 |         20.00 |       1419.65 | 
+    |            97 |            30 |             6 |         11.81 |       1431.50 | 
+    |            97 |            36 |             6 |          2.38 |       1433.92 | 
+    |            96 |            43 |             7 |         20.00 |       1454.03 | *
+    |            96 |            43 |             8 |         20.03 |       1474.21 | 
+    |            96 |            34 |             7 |         18.72 |       1492.98 | 
+    |            96 |            40 |             7 |         13.18 |       1506.22 | 
+    |            96 |            48 |             9 |         20.01 |       1526.39 | 
+    |            96 |            38 |             7 |          6.91 |       1533.40 | 
+    |            96 |            45 |             8 |         20.01 |       1553.48 | 
+    |            96 |            36 |             7 |          4.28 |       1557.86 | 
+    |            96 |            43 |             8 |         20.01 |       1577.97 | 
+    |            96 |            34 |             6 |          6.75 |       1584.78 | 
+    |            96 |            40 |             8 |         20.00 |       1604.87 | 
+    |            96 |            32 |             7 |         16.18 |       1621.11 | 
+    |            96 |            38 |             6 |          3.46 |       1624.62 | 
+    |            96 |            45 |             9 |         20.00 |       1644.73 | 
+    |            96 |            36 |             7 |         20.00 |       1664.80 | 
+    |            96 |            28 |             6 |          9.15 |       1673.99 | 
+    |            96 |            33 |             6 |          4.85 |       1678.88 | 
+    |            96 |            39 |             8 |         20.00 |       1698.98 | 
+    |            96 |            31 |             6 |          4.48 |       1703.52 | 
+    |            96 |            37 |             7 |         20.00 |       1723.62 | 
+    |            96 |            29 |             5 |          0.75 |       1724.43 | 
+    |            96 |            34 |             7 |         20.00 |       1744.54 | 
+    |            96 |            27 |             5 |          0.39 |       1744.94 | 
+    |            96 |            32 |             6 |          3.39 |       1748.38 | 
+    |            96 |            38 |             7 |          9.92 |       1758.40 | 
+    |            96 |            45 |             9 |         20.01 |       1778.55 | 
+    |            96 |            36 |             6 |          3.50 |       1782.10 | 
+    |            96 |            43 |             8 |         20.00 |       1802.19 | 
+    |            96 |            34 |             6 |          2.73 |       1805.03 | 
+    |            96 |            40 |             8 |         20.00 |       1825.14 | 
+    |            96 |            32 |             5 |          0.46 |       1825.66 | 
+    |            96 |            38 |             7 |         11.85 |       1837.57 | 
+    |            96 |            45 |             7 |         20.00 |       1857.66 | 
+    |            96 |            36 |             7 |         20.00 |       1877.70 | 
+    |            96 |            28 |             5 |          1.34 |       1879.07 | 
+    |            96 |            33 |             6 |          1.28 |       1880.41 | 
+    |            96 |            39 |             7 |          5.97 |       1886.44 | 
+    |            96 |            46 |             9 |         20.01 |       1906.57 | 
+    |            96 |            36 |             6 |          4.04 |       1910.65 | 
+    |            96 |            43 |             8 |         20.01 |       1930.74 | 
+    |            95 |            34 |             7 |          5.64 |       1936.43 | *
+    |            95 |            34 |             6 |          1.35 |       1937.80 | 
+    |            95 |            40 |             8 |         20.00 |       1957.87 | 
+    |            95 |            32 |             5 |          0.81 |       1958.70 | 
+    |            95 |            38 |             8 |         20.00 |       1978.80 | 
+    |            95 |            30 |             6 |          1.05 |       1979.94 | 
+    |            95 |            36 |             7 |         20.00 |       2000.01 | 
+    |            95 |            28 |             6 |          4.65 |       2004.68 | 
+    |            95 |            33 |             6 |          8.58 |       2013.34 | 
+    |            95 |            39 |             6 |         20.00 |       2033.39 | 
+    |            94 |            31 |             5 |          1.02 |       2034.43 | *
+    |            94 |            31 |             6 |          1.39 |       2035.96 | 
+    |            94 |            37 |             6 |          6.07 |       2042.07 | 
+    |            94 |            44 |             8 |         20.01 |       2062.13 | 
+    |            94 |            35 |             7 |         20.00 |       2082.21 | Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+
+    |            94 |            28 |             5 |          0.24 |       2082.48 | 
+    |            94 |            33 |             6 |          6.40 |       2088.91 | 
+    |            94 |            39 |             7 |         14.08 |       2103.06 | 
+    |            94 |            46 |             7 |          7.41 |       2110.54 | 
+    |            94 |            55 |             9 |          2.38 |       2113.07 | 
+    |            94 |            66 |            11 |         20.01 |       2133.39 | 
+    |            94 |            52 |             8 |         20.01 |       2153.51 | 
+    |            94 |            41 |             7 |          1.98 |       2155.57 | 
+    |            94 |            49 |             9 |         20.00 |       2175.81 | 
+    |            94 |            39 |             7 |          7.65 |       2183.53 | 
+    |            94 |            46 |             8 |         20.00 |       2203.60 | 
+    |            94 |            36 |             6 |          1.45 |       2205.09 | 
+    |            94 |            43 |             8 |         20.00 |       2225.19 | 
+    |            94 |            34 |             6 |          1.89 |       2227.12 | 
+    |            94 |            40 |             8 |         20.00 |       2247.22 | 
+    |            94 |            32 |             5 |          0.28 |       2247.54 | 
+    |            94 |            38 |             7 |         20.00 |       2267.59 | 
+    |            94 |            30 |             5 |          2.16 |       2269.77 | 
+    |            94 |            36 |             7 |         20.00 |       2289.85 | 
+    |            94 |            28 |             5 |          0.14 |       2290.02 | 
+    |            94 |            33 |             6 |          9.91 |       2299.95 | 
+    |            94 |            39 |             7 |         20.00 |       2320.00 | 
+    |            94 |            31 |             5 |          1.42 |       2321.49 | 
+    |            94 |            37 |             8 |         20.01 |       2341.55 | 
+    |            94 |            29 |             5 |          0.20 |       2341.79 | 
+    |            94 |            34 |             7 |         20.00 |       2361.88 | 
+    |            94 |            27 |             5 |          0.40 |       2362.29 | 
+    |            94 |            32 |             6 |          1.43 |       2363.77 | 
+    |            94 |            38 |             7 |         20.00 |       2383.81 | 
+    |            94 |            30 |             6 |          0.91 |       2384.78 | 
+    |            94 |            36 |             6 |          2.44 |       2387.31 | 
+    |            94 |            43 |             7 |          6.09 |       2393.48 | 
+    |            94 |            51 |            10 |         20.01 |       2413.62 | 
+    |            94 |            40 |             8 |         20.00 |       2433.73 | 
+    |            94 |            32 |             5 |          1.02 |       2434.79 | 
+    |            94 |            38 |             7 |         20.00 |       2454.88 | 
+    |            94 |            30 |             5 |          0.67 |       2455.57 | 
+    |            94 |            36 |             7 |          3.15 |       2458.77 | 
+    |            94 |            43 |             8 |         20.00 |       2478.92 | 
+    |            94 |            34 |             7 |         20.00 |       2499.00 | 
+    |            94 |            27 |             5 |          0.35 |       2499.37 | 
+    |            94 |            32 |             6 |          1.06 |       2500.46 | 
+    |            94 |            38 |             6 |          2.32 |       2502.83 | 
+    |            94 |            45 |             8 |         20.00 |       2522.93 | 
+    |            94 |            36 |             6 |          3.39 |       2526.36 | 
+    |            94 |            43 |             8 |          5.41 |       2531.87 | 
+    |            94 |            51 |            10 |         20.01 |       2552.02 | 
+    |            94 |            40 |             7 |          2.19 |       2554.29 | 
+    |            94 |            48 |             8 |         20.01 |       2574.42 | 
+    |            94 |            38 |             8 |         20.00 |       2594.55 | 
+    |            94 |            30 |             6 |          1.13 |       2595.72 | 
+    |            94 |            36 |             7 |          3.86 |       2599.65 | 
+    |            94 |            43 |             8 |          3.52 |       2603.30 | 
+    |            94 |            51 |            10 |         20.01 |       2623.47 | 
+    |            94 |            40 |             6 |          1.92 |       2625.46 | 
+    |            94 |            48 |             8 |         20.00 |       2645.61 | 
+    |            94 |            38 |             7 |         20.00 |       2665.66 | 
+    |            94 |            30 |             6 |          0.83 |       2666.52 | 
+    |            94 |            36 |             7 |          2.30 |       2668.87 | 
+    |            94 |            43 |             9 |         20.00 |       2689.08 | 
+    |            94 |            34 |             7 |          5.70 |       2694.83 | 
+    |            94 |            40 |             8 |         20.00 |       2714.90 | 
+    |            94 |            32 |             6 |          1.57 |       2716.50 | 
+    |            94 |            38 |             6 |          1.51 |       2718.10 | 
+    |            94 |            45 |             8 |         20.01 |       2738.18 | 
+    |            94 |            36 |             6 |          0.50 |       2738.75 | 
+    |            94 |            43 |             7 |          5.56 |       2744.36 | 
+    |            94 |            51 |             9 |         20.00 |       2764.49 | 
+    |            94 |            40 |             7 |          6.83 |       2771.39 | 
+    |            94 |            48 |             9 |         20.00 |       2791.53 | 
+    |            94 |            38 |             7 |          4.08 |       2795.71 | 
+    |            94 |            45 |             8 |         20.00 |       2815.81 | 
+    |            94 |            36 |             7 |          5.09 |       2821.01 | 
+    |            94 |            43 |             8 |         20.00 |       2841.07 | 
+    |            94 |            34 |             6 |          1.59 |       2842.70 | 
+    |            94 |            40 |             8 |         20.00 |       2862.81 | 
+    |            94 |            32 |             6 |          0.78 |       2863.63 | 
+    |            94 |            38 |             7 |          3.34 |       2867.06 | 
+    |            94 |            45 |             8 |         20.00 |       2887.19 | 
+    |            94 |            36 |             6 |          1.55 |       2888.77 | 
+    |            94 |            43 |             7 |          4.01 |       2892.84 | 
+    |            94 |            51 |            10 |         20.01 |       2913.03 | 
+    |            94 |            40 |             7 |          4.99 |       2918.11 | 
+    |            94 |            48 |             9 |         20.01 |       2938.23 | 
+    |            94 |            38 |             6 |          1.54 |       2939.83 | 
+    |            94 |            45 |             8 |         20.00 |       2959.99 | 
+    |            94 |            36 |             6 |          1.76 |       2961.81 | 
+    |            94 |            43 |             8 |         20.00 |       2981.90 | 
+    |            94 |            34 |             7 |          3.28 |       2985.22 | 
+    |            94 |            40 |             8 |         12.09 |       2997.41 | 
+    |            94 |            48 |             8 |         11.86 |       3009.40 | 
+    |            94 |            57 |            11 |         20.01 |       3029.61 | 
+    |            94 |            45 |             9 |         20.01 |       3049.75 | 
+    |            94 |            36 |             7 |          7.39 |       3057.25 | 
+    |            94 |            43 |             8 |         14.87 |       3072.26 | Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+Academic license - for non-commercial use only
+
+    |            94 |            51 |             9 |         20.00 |       3092.47 | 
+    |            94 |            40 |             7 |         20.00 |       3112.52 | 
+    |            94 |            32 |             6 |          1.52 |       3114.07 | 
+    |            94 |            38 |             7 |          2.13 |       3116.28 | 
+    |            94 |            45 |             9 |         20.00 |       3136.36 | 
+    |            94 |            36 |             8 |         12.79 |       3149.25 | 
+    |            94 |            43 |             8 |         20.02 |       3169.37 | 
+    |            94 |            34 |             7 |         20.00 |       3189.43 | 
+    |            94 |            27 |             5 |          0.45 |       3189.90 | 
+    |            94 |            32 |             7 |          3.96 |       3193.90 | 
+    |            94 |            38 |             8 |         20.00 |       3213.95 | 
+    |            94 |            30 |             5 |          0.32 |       3214.30 | 
+    |            94 |            36 |             6 |          2.84 |       3217.22 | 
+    |            94 |            43 |             8 |         20.01 |       3237.32 | 
+    |            94 |            34 |             6 |          1.01 |       3238.38 | 
+    |            94 |            40 |             8 |         20.00 |       3258.44 | 
+    |            94 |            32 |             6 |         20.00 |       3278.47 | 
+    |            94 |            25 |             5 |          0.74 |       3279.22 | 
+    |            93 |            30 |             5 |          1.44 |       3280.72 | *
+    |            93 |            30 |             5 |          1.26 |       3282.00 | 
+    |            93 |            36 |             6 |          2.54 |       3284.57 | 
+    |            93 |            43 |             8 |          3.26 |       3287.95 | 
+    |            93 |            51 |            10 |         20.00 |       3308.09 | 
+    |            93 |            40 |             8 |         20.00 |       3328.18 | 
+    |            93 |            32 |             6 |          2.30 |       3330.52 | 
+    |            93 |            38 |             7 |          1.72 |       3332.30 | 
+    |            93 |            45 |             9 |         20.01 |       3352.43 | 
+    |            93 |            36 |             7 |          3.61 |       3356.09 | 
+    |            93 |            43 |             8 |         15.28 |       3371.45 | 
+    |            93 |            51 |             8 |         20.01 |       3391.59 | 
+    |            93 |            40 |             8 |         20.00 |       3411.68 | 
+    |            93 |            32 |             6 |          1.40 |       3413.11 | 
+    |            93 |            38 |             8 |          0.69 |       3413.85 | 
+    |            93 |            45 |             8 |         20.00 |       3433.96 | 
+    |            93 |            36 |             8 |         20.00 |       3454.01 | 
+    |            93 |            28 |             6 |          0.83 |       3454.88 | 
+    |            93 |            33 |             7 |          5.04 |       3460.01 | 
+    |            93 |            39 |             8 |          5.13 |       3465.20 | 
+    |            93 |            46 |             8 |         20.00 |       3485.31 | 
+    |            93 |            36 |             7 |          1.84 |       3487.20 | 
+    |            93 |            43 |             8 |         20.00 |       3507.30 | 
+    |            93 |            34 |             6 |          1.49 |       3508.83 | 
+    |            92 |            40 |             7 |         20.00 |       3528.88 | *
+    |            92 |            40 |             7 |          2.09 |       3531.06 | 
+    |            92 |            48 |             8 |         20.00 |       3551.14 | 
+    |            92 |            38 |             8 |          2.96 |       3554.19 | 
+    |            92 |            45 |             8 |          8.46 |       3562.73 | 
+    |            92 |            54 |            10 |         20.01 |       3582.89 | 
+    |            92 |            43 |             9 |         16.79 |       3599.84 | 
+    \-------------------------------------------------------------------------------/
+-11.956521739130435

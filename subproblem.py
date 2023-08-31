@@ -11,6 +11,8 @@ class MIPModel:
         model = Model(solver_name=GUROBI)
         self.problem = problem
 
+        # machines
+
         # Sets
         M = list(range(len(machines)))
         N = list(range(len(jobs)))
@@ -173,11 +175,13 @@ class MIPModel:
         self.model.verbose = 0
         self.status = self.model.optimize(max_seconds=time)
 
+    #    if self.status == OptimizationStatus.OPTIMAL: #check carefully
         if self.model.num_solutions > 0 and self.cmax.x < solution.makespan:
             # Updates solution object
             for j in self.jobs[:-1]:
                 solution.jobs[j] = False
                 solution.njobs -= 1
+                # self.print_var()
             for i in self.problem.M:
                 if i in self.machines:
                     m = self.machines.index(i)
@@ -186,11 +190,14 @@ class MIPModel:
                     solution.tam_machine[i] = 0
                     j = self.jobs[-1]
                     n1 = self.jobs.index(j)
+                    # k = self.jobs[]
                     while True:
                         for k in self.jobs:
                             if j != k:
                                 n2 = self.jobs.index(k)
                                 if self.x[m][n1][n2].x > 1e-4:
+                                    # print('(%d, %d, %d) = (%d, %d, %d)'%(i, j, k, m, n1, n2))
+                                    # print('================================')
                                     if k != 0:
                                         solution.allocate(i, k)
                                     j = k
@@ -198,6 +205,10 @@ class MIPModel:
                                     break
                         if j == 0:
                             break
+            # solution.makespan = max(solution.cost)
+            # print('~~~~~~~~~~~~~~~~~~~~~~~~')
+            # solution.print()
+            # print('~~~~~~~~~~~~~~~~~~~~~~~~')
         solution.makespan = max(solution.cost)
         return solution
 

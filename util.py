@@ -12,3 +12,14 @@ def shuffle(list_sort: list):
         auxiliar_num = list_shuffle[first_pos]
         list_shuffle[first_pos] = list_shuffle[second_pos]
         list_shuffle[second_pos] = auxiliar_num
+
+
+def thebest() -> dict:
+    file = open('the_best_one.csv', 'r')
+    lines = file.readlines()
+    file.close()
+    BKS = {}
+    for line in lines:
+        [instance, value] = line[:-1].split(';')
+        BKS[instance] = int(value)
+    return BKS

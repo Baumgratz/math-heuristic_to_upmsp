@@ -1,0 +1,67 @@
+
+Gurobi 7.0.2 (win64) logging started 06/24/20 01:56:10
+
+Read LP format model from file C:\George\Professor\Pesquisa\Orientacoes em Pos-graduacao\2019 MSC PPGCC Guilherme Figueroa\Fanjuls Solver\Results\I_200_10_S_1-49_6_MTZ_KB.lp
+Reading time = 2.63 seconds
+: 44420 rows, 404201 columns, 1692010 nonzeros
+Optimize a model with 44420 rows, 404201 columns and 1692010 nonzeros
+Variable types: 2201 continuous, 402000 integer (402000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+02]
+Presolve removed 0 rows and 0 columns (presolve time = 6s) ...
+Presolve time: 5.63s
+Presolved: 44420 rows, 404201 columns, 1692010 nonzeros
+Variable types: 200 continuous, 404001 integer (404000 binary)
+Found heuristic solution: objective 15224.000000
+Found heuristic solution: objective 15202.000000
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   4.000000e+02   0.000000e+00     15s
+    4651    1.5034158e-04   1.353911e+04   0.000000e+00     20s
+    7458    4.7599811e-04   6.090539e+03   0.000000e+00     25s
+    9943    6.6456350e-04   8.203151e+03   0.000000e+00     31s
+   11894    8.6925960e-04   4.438841e+03   0.000000e+00     36s
+   16589    1.2600821e-03   4.921970e+03   0.000000e+00     41s
+   20097    1.6187331e-03   6.292358e+03   0.000000e+00     45s
+   23495    2.2363433e-03   3.515466e+03   0.000000e+00     52s
+   29224    5.0893032e-03   9.226927e+03   0.000000e+00     55s
+   39386    1.9704364e+02   1.718556e+03   0.000000e+00     60s
+   43235    2.2316561e+02   6.658904e+02   0.000000e+00     65s
+   45377    2.2988239e+02   2.024142e+03   0.000000e+00     71s
+   47501    2.3474882e+02   4.949522e+02   0.000000e+00     76s
+   48792    2.3643810e+02   2.399745e+02   0.000000e+00     81s
+   49904    2.3715840e+02   1.086445e+02   0.000000e+00     86s
+   50521    2.3736200e+02   3.344281e+01   0.000000e+00     90s
+   51017    2.3741782e+02   0.000000e+00   0.000000e+00     94s
+
+Root relaxation: objective 2.374178e+02, 51017 iterations, 79.47 seconds
+Total elapsed time = 95.47s
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  237.41782    0  459 15202.0000  237.41782  98.4%     -   96s
+H    0     0                     275.0000000  237.41782  13.7%     -  197s
+     0     0  238.00000    0  646  275.00000  238.00000  13.5%     -  857s
+     0     0  238.00000    0  649  275.00000  238.00000  13.5%     -  862s
+     0     0  238.00000    0  685  275.00000  238.00000  13.5%     - 1199s
+H    0     0                     260.0000000  238.00000  8.46%     - 1800s
+
+Cutting planes:
+  Learned: 4
+  Gomory: 5
+  MIR: 109
+
+Explored 0 nodes (101898 simplex iterations) in 1800.16 seconds
+Thread count was 1 (of 12 available processors)
+
+Solution count 4: 260 275 15202 15224 
+Pool objective bound 238
+
+Time limit reached
+Best objective 2.600000000000e+02, best bound 2.380000000000e+02, gap 8.4615%
